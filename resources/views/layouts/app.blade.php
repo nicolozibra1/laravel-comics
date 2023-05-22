@@ -17,6 +17,11 @@
 
 <body>
     @include('partials.header')
+
+    <div class="box-hero">
+        <img src="/img/jumbotron.jpg" alt="jumbotron">
+    </div>
+
     <main>
         @yield('content')
     </main>

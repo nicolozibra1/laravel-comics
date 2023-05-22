@@ -26,7 +26,9 @@ Route::get('/', function () {
            'fans',
            'news',
            'shop'
-        ]
+        ],
+        'comics' => config('db.comics')
     ];
+    // dd(config('db.comics'));
     return view('home', $data);
 })->name('home');
