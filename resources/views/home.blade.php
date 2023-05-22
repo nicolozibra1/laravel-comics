@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Prova</h1>
+    <div class="box-hero">
+        <img src="/img/jumbotron.jpg" alt="jumbotron">
+    </div>
 @endsection
