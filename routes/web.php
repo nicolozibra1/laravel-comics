@@ -171,6 +171,28 @@ Route::get('/', function () {
                 ]
             ],
         ],
+        'social_links' => [
+            [
+                "title" => 'facebook',
+                "image" => '/img/footer-facebook.png'
+            ],
+            [
+                "title" => 'twitter',
+                "image" => '/img/footer-twitter.png'
+            ],
+            [
+                "title" => 'youtube',
+                "image" => '/img/footer-youtube.png'
+            ],
+            [
+                "title" => 'pinterest',
+                "image" => '/img/footer-pinterest.png'
+            ],
+            [
+                "title" => 'periscope',
+                "image" => '/img/footer-periscope.png'
+            ],
+        ],
         'comics' => config('db.comics')
     ];
     // dd(config('db.comics'));

@@ -24,7 +24,7 @@
             </div>
         </div>
     </div>
-    {{-- <div class="f-bottom">
+    <div class="f-bottom">
         <div class="container h-100 d-flex justify-content-between align-items-center">
             <div class="sign-up">
                 <button>
@@ -33,14 +33,16 @@
             </div>
             <div class="social-links h-100 d-flex align-items-center gap-3 debug">
                 <span>follow us</span>
-                <ul v-for="(link,index) in social" :key="index" class="list-unstyled debug">
+                @foreach ($social_links as $link )
+                <ul class="list-unstyled debug">
                     <li class="pt-3">
                         <a href="#">
-                            <img :src="'img/' + link.image" alt="">
+                            <img src="{{$link['image']}}" alt="">
                         </a>
                     </li>
                 </ul>
+                @endforeach
             </div>
         </div>
-    </div> --}}
+    </div>
 </footer>
