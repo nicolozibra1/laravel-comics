@@ -26,6 +26,8 @@
         @yield('content')
     </main>
 
+    @include('partials.banner')
+
 </body>
 
 </html>
