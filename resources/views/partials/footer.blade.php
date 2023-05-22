@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-6 debug" id="col-logo">
                     <div class="box-logo">
-                        <img src="img/dc-logo-bg.png" alt="">
+                        <img src="/img/dc-logo-bg.png" alt="">
                     </div>
                 </div>
             </div>
