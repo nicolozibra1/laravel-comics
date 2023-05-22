@@ -5,9 +5,9 @@
         </div>
     </div>
     <div class="v-menu" v-if="open">
-        <ul v-for="link in links" :key="link.id" :id="link.id" class="list-unstyled mb-2">
+        <ul class="ul list-unstyled mb-2">
             @foreach ($nav_links as $link )
-                <li><a href="#">{{$link}}</a></li>
+                <li><a href="#" class="h-links">{{$link}}</a></li>
             @endforeach
         </ul>
     </div>

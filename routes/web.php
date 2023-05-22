@@ -48,7 +48,129 @@ Route::get('/', function () {
                 "title" => 'dc power visa',
                 "image" => '/img/buy-dc-power-visa.png'
             ]
+        ],
+        'footer_links' => [
+            [
+                "title" => 'dc comics',
+                "links" => [
+                    [
+                        "text" => 'characters',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'comics',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'movies',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'tv',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'games',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'videos',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'news',
+                        "link" => '#'
+                    ],
+                ]
             ],
+            [
+                "title" => 'shop',
+                "links" => [
+                    [
+                        "text" => 'Shop DC',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'Shop DC Collectibles',
+                        "link" => '#'
+                    ]
+                ]
+            ],
+            [
+                "title" => 'dc',
+                "links" => [
+                    [
+                        "text" => 'terms of use',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'privacy poolicy (new)',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'ad choices',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'advertising',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'jobs',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'subscriptions',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'talent workshops',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'CPSC Certificates',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'ratings',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'Show help',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'contact us',
+                        "link" => '#'
+                    ],
+                ]
+            ],
+            [
+                "title" => 'sites',
+                "links" => [
+                    [
+                        "text" => 'DC',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'MAD Magazine',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'DC Kids',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'DC Universe',
+                        "link" => '#'
+                    ],
+                    [
+                        "text" => 'DC Power Visa',
+                        "link" => '#'
+                    ]
+                ]
+            ],
+        ],
         'comics' => config('db.comics')
     ];
     // dd(config('db.comics'));
