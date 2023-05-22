@@ -74,6 +74,9 @@ main{
         left: 300px;
         font-weight: 600;
     }
+    a{
+        text-decoration: none;
+    }
     .card{
         width: 95%;
         border: none;
@@ -82,7 +85,7 @@ main{
     }
     .box-image{
         height: 180px;
-        width: 90%;
+        width: 180px;
         margin: auto;
 
         img{
